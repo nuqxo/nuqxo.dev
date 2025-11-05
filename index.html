@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nuqxo | Developer Portfolio</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: #0c0c0c;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            padding: 60px 10%;
+            text-align: center;
+            animation: fadeIn 1.5s ease;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            animation: glitch 2s infinite;
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px #ff0055; }
+            50% { text-shadow: -2px -2px #00eaff; }
+            100% { text-shadow: 2px 2px #ff0055; }
+        }
+
+        h3 {
+            opacity: 0.7;
+            font-weight: 300;
+            margin-top: -15px;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 40px 10%;
+            animation: fadeUp 1.3s ease;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: #111;
+            border: 1px solid #333;
+            width: 270px;
+            padding: 25px;
+            border-radius: 10px;
+            transition: .4s;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #ff0055;
+            box-shadow: 0 0 15px #ff0055;
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        .card p {
+            opacity: .7;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 14px;
+            opacity: .7;
+        }
+
+        .links {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+        .links a {
+            color: #ff0055;
+            text-decoration: none;
+            transition: .3s;
+        }
+
+        .links a:hover {
+            color: #00eaff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NUQXO</h1>
+    <h3>Lua & Web Developer • Roblox Scripter</h3>
+</header>
+
+<section>
+    <h2 style="text-align:center;">PROJECTS</h2>
+
+    <div class="projects">
+
+        <div class="card" onclick="window.open('https://github.com/nuqxo/weather-aesthetic','_blank')">
+            <h2>Weather Aesthetic</h2>
+            <p>A minimal and smooth weather app with animated UI, live OpenWeather API data, temperature, wind, and weather icons.</p>
+        </div>
+
+        <div class="card" onclick="window.open('https://github.com/nuqxo/currency-converter','_blank')">
+            <h2>Currency Converter</h2>
+            <p>A clean and fast currency conversion tool with real-time updated rates.</p>
+        </div>
+
+        <div class="card" onclick="window.open('https://github.com/nuqxo/focus.lua','_blank')">
+            <h2>Focus.lua</h2>
+            <p>A productivity script made for developers to stay organized and focused.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2025 — coded with ❤ by nuqxo
+    <div class="links">
+        🔗 <a href="https://github.com/nuqxo" target="_blank">GitHub</a> |
+        📄 <a href="about.html">About Me</a> |
+        💬 Discord: <a href="https://discord.com/users/1427520746846027796" target="_blank">nuqxo</a>
+    </div>
+</footer>
+
+</body>
+</html>
