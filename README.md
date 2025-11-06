@@ -1,3 +1,5 @@
+<img width="1589" height="1069" alt="image" src="https://github.com/user-attachments/assets/a0ff6b45-09a6-475c-945a-7ce270a1152a" />
+
 # 🎨 nuqxo — Developer Portfolio
 
 A minimal, modern and aesthetic developer portfolio built with **HTML + CSS**, featuring smooth animations and a clean dark UI.
