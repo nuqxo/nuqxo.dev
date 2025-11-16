@@ -37,7 +37,7 @@ No frameworks, no backend — just clean, fast and lightweight.
 
 ## 📬 Contact
 - GitHub: **https://github.com/nuqxo**
-- Discord: **nuqxo** (ID: **1427520746846027796**)
+- Discord: **nuqxu** (ID: **1439479711746101351**)
 
 ---
 
