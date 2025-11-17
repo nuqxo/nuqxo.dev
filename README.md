@@ -14,7 +14,7 @@ This website was designed to showcase my projects, skills, and contact informati
 ✔ Responsive layout  
 ✔ Projects section  
 ✔ About Me page  
-✔ Contact links (GitHub + Discord)
+✔ Contact links (GitHub)
 
 ---
 
