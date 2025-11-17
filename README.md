@@ -1,4 +1,4 @@
-<img width="1599" height="1199" alt="image" src="https://github.com/user-attachments/assets/a01150a1-f94a-4bb0-b9a3-ef4a1e44b165" />
+<img width="1599" height="1199" alt="image" src="https://github.com/user-attachments/assets/49603a11-5038-4adc-9f54-d635e8faca97" />
 
 # 🎨 nuqxo — Developer Portfolio
 
